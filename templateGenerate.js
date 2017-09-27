@@ -49,4 +49,4 @@ if (require.main === module) {
   main(require('minimist')(process.argv.slice(2)));
 }
 
-exports.templateGenerate = templateGenerate;
+module.exports = templateGenerate;

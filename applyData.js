@@ -105,4 +105,4 @@ if (require.main === module) {
   main(require('minimist')(process.argv.slice(2)));
 }
 
-exports.applyData = applyData;
+module.exports = applyData;

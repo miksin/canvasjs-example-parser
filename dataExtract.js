@@ -46,4 +46,4 @@ if (require.main === module) {
   main(require('minimist')(process.argv.slice(2)));
 }
 
-exports.dataExtract = dataExtract;
+module.exports = dataExtract;
