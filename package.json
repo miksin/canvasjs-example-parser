@@ -1,15 +1,22 @@
 {
-  "name": "canvasjs",
+  "name": "canvasjs-example-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "apply.js",
+  "description": "For reusability of data visualization examples provided by CanvasJS.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "fetch": "bash install.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "canvasjs",
+    "parser",
+    "data visualization"
+  ],
+  "contributors": [
+    {
+        "name": "Li-Min Chen",
+        "email": "lmchen@cs.nctu.edu.tw"
+    } 
+  ],
   "devDependencies": {
     "eslint": "^4.7.2"
   },
