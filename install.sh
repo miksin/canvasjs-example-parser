@@ -3,7 +3,7 @@
 url='https://canvasjs.com/fdm/chart/'
 filename='example.zip'
 examplePath='examples'
-extractTarget="${examplePath}/*"
+extractTarget="*/${examplePath}/*"
 
 rm -Rf $examplePath
 curl -o $filename $url

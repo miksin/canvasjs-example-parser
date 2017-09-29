@@ -1,3 +1,4 @@
 /node_modules
 /examples
+/canvasjs*
 out.html
