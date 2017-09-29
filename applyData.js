@@ -99,6 +99,7 @@ function main(argv) {
   const targetStr = applyData(templateStr, dataPoints, columnMappings);
 
   writeFileSync(filePath.output, targetStr);
+  console.log('Generate:', filePath.output);
 }
 
 if (require.main === module) {

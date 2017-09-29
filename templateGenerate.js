@@ -43,6 +43,7 @@ function main(argv) {
 
   const targetStr = templateGenerate(getFileString(filePath.example));
   writeFileSync(filePath.template, targetStr);
+  console.log('Generate:', filePath.template);
 }
 
 if (require.main === module) {

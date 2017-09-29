@@ -13,9 +13,9 @@
   ],
   "contributors": [
     {
-        "name": "Li-Min Chen",
-        "email": "lmchen@cs.nctu.edu.tw"
-    } 
+      "name": "Li-Min Chen",
+      "email": "lmchen@cs.nctu.edu.tw"
+    }
   ],
   "devDependencies": {
     "eslint": "^4.7.2"
